@@ -1,0 +1,57 @@
+.project{
+    align-items: center;
+    text-align: center;
+    padding: 60px 120px;
+}
+.project h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.project-list{
+    display: flex;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    margin: 50px 0 auto;
+    border-radius: 20px;
+    gap: 50px;
+}
+.project-list img{
+    border-radius: 15px;
+    height: 300px;
+    cursor: pointer;
+}
+.info-project{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.info-project h2{
+    font-size: 33px;
+    margin-top: 40px;
+}
+.info-project p{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+.info-project a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.info-project a span{
+    background: linear-gradient(170deg, orange, blueviolet);
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    
+}
+.info-project a:hover{
+    transition: 0.3s;
+    transform: scale(1.09);
+}
+.info-project a span:hover{
+    background: blueviolet;
+}
+

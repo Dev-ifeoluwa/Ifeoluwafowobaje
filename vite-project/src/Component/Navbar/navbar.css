@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 230px;
+  background: rgba(255, 255, 255, 0.3); /* semi-transparent background */
+  backdrop-filter: blur(10px); /* blur effect */
+  -webkit-backdrop-filter: blur(10px); /* for Safari support */
+  border-radius: 16px; /* optional: rounded corners */
+  box-shadow: 0 4px 30px rgba(24, 19, 19, 0.1); /* optional: subtle shadow */
+}
+/* .hidden{
+  display: none;
+} */
+.navbar li {
+  font-size: 24px;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.navbar li:hover{
+    color: blueviolet;
+}
+
