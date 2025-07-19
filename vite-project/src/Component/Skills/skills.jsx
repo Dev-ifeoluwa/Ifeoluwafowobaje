@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import ToggleTabs from './ToggleTab'; 
-import './skills.css'
+import './skills.css';
 
 const skills = () => {
   return (

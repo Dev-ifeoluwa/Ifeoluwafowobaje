@@ -1,7 +1,7 @@
-import React from 'react'
-import './about1.css'
-import Exp00 from '../../assets/exp1.jpg'
-import Exp000 from '../../assets/exp2.jpg'
+import React from 'react';
+import './about1.css';
+import Exp00 from '../../assets/exp_1.jpg';
+import Exp000 from '../../assets/exp_2.jpg';
 
 const about1 = () => {
   return (
