@@ -8,7 +8,7 @@ import Profile from '/src/assets/profile_photo.png';
 const About = () => {
 
   const [typeEffect] = useTypewriter({
-    words: ['Web Developer.', ' Web Designer.', 'Frontend Developer.', 'App Developer.', 'App Designer.', 'Enterprenuer.'],
+    words: ['Web Developer.', ' Web Designer.', 'Frontend Developer.', 'App Developer.', 'App Designer.', 'Entrepreneur.'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
@@ -20,7 +20,10 @@ const About = () => {
       <div className="About-left">
         <p>I'm</p>
         <h1>Ifeoluwa Fowbaje</h1>
-        <span>'{typeEffect}'</span>
+        <span>
+          {typeEffect}
+          <Cursor cursorStyle='|' />
+        </span>
         <div className="about-call-to-action">
           <a href="#"><p>Download CV</p></a>
           <div className="play-video-btn">
