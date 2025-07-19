@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from './Component/Navbar/Navbar.jsx'; // Ensure the path and filename match the actual file exactly
+// import Navbar from './Component/Navbar/Navbar.jsx'; // Ensure the path and filename match the actual file exactly
 import About from './Component/About/about.jsx';
 import About1 from './Component/About1/about1.jsx';
 import Skills from './Component/Skills/skills.jsx';
@@ -8,24 +8,24 @@ import Project from './Component/Project/project.jsx';
 import Contact from './Component/Contact/contact.jsx';
 
 const App = () => {
-  const [showNavbar, setShowNavbar] = useState(false);
+  // const [showNavbar, setShowNavbar] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY === 0) {
-        setShowNavbar(false);
-      } else {
-        setShowNavbar(true);
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY === 0) {
+  //       setShowNavbar(false);
+  //     } else {
+  //       setShowNavbar(true);
+  //     }
+  //   };
+  //   window.addEventListener('scroll', handleScroll);
+  //   handleScroll(); // Initial check
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, []);
 
   return (
     <div>
-      {showNavbar && <Navbar />}
+      {/* {showNavbar && <Navbar />} */}
       <About />
       <About1 />
       <Skills />
