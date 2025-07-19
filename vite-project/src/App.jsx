@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from './Component/Navbar/Navbar.jsx';
+import Navbar from './Component/Navbar/Navbar.jsx'; // Ensure the path and filename match the actual file exactly
 import About from './Component/About/about.jsx';
 import About1 from './Component/About1/about1.jsx';
 import Skills from './Component/Skills/skills.jsx';
@@ -37,6 +37,3 @@ const App = () => {
 }
 
 export default App
-
-
-
