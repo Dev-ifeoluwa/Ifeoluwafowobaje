@@ -1,9 +1,9 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Corrected casing
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Corrected casing
-import './about.css';
-import VideoPlay from '../../assets/video1.png';
-import Profile from '../../assets/profile photo.png';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import './about.css'
+import VideoPlay from '../../assets/video1.png'
+import Profile from '../../assets/profile photo.png'
 
 const about = () => {
 
@@ -27,7 +27,7 @@ const about = () => {
             <img src={VideoPlay} alt="play video" width={100} />
             <span>Watch my Into</span>
           </div>
-          <FontAwesomeIcon icon={faEnvelope} />
+          {/* <FontAwesomeIcon icon={faEnvelope} /> */}
         </div>
       </div>
       {/* about-right */}
@@ -39,3 +39,20 @@ const about = () => {
 }
 
 export default about
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
