@@ -36,16 +36,14 @@
 }
 .about-call-to-action a{
     text-decoration: none;
-}
-.about-call-to-action a p{
     color: white;
     background: linear-gradient(130deg, orange, blueviolet);
     padding: 16px;
     font-size: 20px;
     border-radius: 20px;
-     animation: actionsac 800ms infinite alternate-reverse;
+    animation: actionsac 800ms infinite alternate-reverse;
 }
-.about-call-to-action a p:hover{
+.about-call-to-action a:hover{
     background: rgb(235, 167, 42);
 }
 .play-video-btn{

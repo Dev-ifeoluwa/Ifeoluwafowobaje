@@ -3,7 +3,7 @@ import './about1.css';
 import Exp00 from '../../assets/exp_1.jpg';
 import Exp000 from '../../assets/exp_2.jpg';
 
-const about1 = () => {
+const About1 = () => {
   return (
     <div className='about1'>
         {/* about1 left */}
@@ -25,17 +25,19 @@ const about1 = () => {
                     applications. I enjoy learning new technologies 
                     and writing clean, maintainable code.
                 </p>
-                <li>Afordable Prices</li>
-                <li>High Quality Product</li>
-                <li>On Time Project Delivery</li>
+                <ul>
+                    <li>Affordable Prices</li>
+                    <li>High Quality Product</li>
+                    <li>On Time Project Delivery</li>
+                </ul>
                 <button>Read More</button>
             </div>
         </div>
         {/* about right */}
         <div className="about1_container2">
             <div className="for-img">
-                <img src={Exp00} alt="" width={250}/>
-                <img src={Exp000} alt="" width={250}/>
+                <img src={Exp00} alt="Web development project example" width={250}/>
+                <img src={Exp000} alt="Web design project example" width={250}/>
             </div>
             <div className="remain-text">
                 <h1>Happy Clients  <span>10+</span></h1>
@@ -43,8 +45,8 @@ const about1 = () => {
                     I focus on building clean, efficient,
                      and user-friendly applications tailored to real-world needs.
                 </p>
-                <h1>projects completed  <span>15+</span></h1>
-                <p>I have successfully completed 12 projects for 10+ clients.
+                <h1>projects completed  <span>12+</span></h1>
+                <p>I have successfully completed 15+ projects for 10+ clients.
                      I specialize in building clean, efficient, 
                     and user-focused applications that solve real-world problems.
                 </p>
@@ -54,4 +56,4 @@ const about1 = () => {
   )
 }
 
-export default about1
+export default About1

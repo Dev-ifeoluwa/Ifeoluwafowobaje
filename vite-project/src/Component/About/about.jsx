@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './about.css';
 import VideoPlay from '../../assets/video_1.png';
 import Profile from '../../assets/profile_photo.png';
@@ -25,7 +25,7 @@ const About = () => {
           <Cursor cursorStyle='|' />
         </span>
         <div className="about-call-to-action">
-          <a href="#"><p>Download CV</p></a>
+          <a href="#">Download CV</a>
           <div className="play-video-btn">
             <img src={VideoPlay} alt="play video" />
             <span>Watch my Into</span>
