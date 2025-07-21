@@ -54,4 +54,35 @@
 .info-project a span:hover{
     background: blueviolet;
 }
-
+@media (max-width: 768px) {
+    .project{
+        padding: 40px;
+    }
+    .project h1{
+        font-size: 30px;
+    }
+    .project-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .project-list img{
+        width: 100%;
+        height: auto;
+    }
+    .info-project{
+        text-align: center;
+    }
+    .info-project h2{
+        font-size: 25px;
+    }
+    .info-project p{
+        font-size: 17px;
+    }
+    .info-project a{
+        font-size: 16px;
+    }
+    .info-project a span{
+        padding: 8px 12px;
+    }
+}

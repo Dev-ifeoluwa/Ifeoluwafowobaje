@@ -14,9 +14,6 @@
   border-radius: 16px; /* optional: rounded corners */
   box-shadow: 0 4px 30px rgba(24, 19, 19, 0.1); /* optional: subtle shadow */
 }
-/* .hidden{
-  display: none;
-} */
 .navbar li {
   font-size: 24px;
   list-style: none;
@@ -25,5 +22,10 @@
 }
 .navbar li:hover{
     color: blueviolet;
+}
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }
 

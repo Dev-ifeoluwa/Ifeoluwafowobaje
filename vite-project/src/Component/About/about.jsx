@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './about.css';
 import VideoPlay from '/src/assets/video_1.png';
 import Profile from '/src/assets/Profile_photo.png';
@@ -30,7 +30,7 @@ const About = () => {
             <img src={VideoPlay} alt="play video" />
             <span>Watch my Into</span>
           </div>
-          <FontAwesomeIcon icon={faEnvelope} />
+          {/* <FontAwesomeIcon icon={faEnvelope} /> */}
         </div>
       </div>
       {/* about-right */}

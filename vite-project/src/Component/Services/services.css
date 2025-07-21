@@ -78,3 +78,34 @@
         transform: translateY(-10px);
     }
 }
+@media (max-width: 768px) {
+  .service {
+    padding: 40px 30px;
+  }
+  .service-top h1 {
+    font-size: 30px;
+  }
+  .service-top button {
+    width: 150px;
+    font-size: 16px;
+  }
+  .creative-design {
+    padding: 20px;
+  }
+  .for-img-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .creative-design h2 {
+    font-size: 20px;
+  }
+  .creative-design p {
+    font-size: 15px;
+  }
+  .service-bot {
+    grid-template-columns: 1fr;
+  }
+  .creative-design {
+    padding: 30px;
+  }
+}
