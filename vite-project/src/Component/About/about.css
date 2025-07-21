@@ -87,8 +87,12 @@
 @media (max-width: 768px) {
     .about{
         flex-direction: column;
-        padding: 5px 0 0 0;
-        /* margin-bottom: 200px; */
+        padding: 5px;
+        margin-bottom: 200px;
+    }
+    .About-left{
+        margin-top: 60px;
+        padding: 0 20px;
     }
     .About-left h1{
         font-size: 45px;
