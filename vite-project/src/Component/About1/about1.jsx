@@ -1,7 +1,7 @@
 import React from 'react';
 import './about1.css';
-import Exp00 from '../../assets/exp_1.jpg';
-import Exp000 from '../../assets/exp_2.jpg';
+import Exp00 from '/src/assets/exp_1.jpg';
+import Exp000 from '/src/assets/exp_2.jpg';
 
 const About1 = () => {
   return (

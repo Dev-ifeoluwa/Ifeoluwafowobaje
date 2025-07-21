@@ -1,8 +1,8 @@
 import React from 'react';
 import './project.css';
-import Project1 from '../../assets/church_website.png';
-import Project2 from '../../assets/E_commerce.png';
-import Project3 from '../../assets/investment_site.png';
+import Project1 from '/src/assets/church_website.png';
+import Project2 from '/src/assets/E_commerce.png';
+import Project3 from '/src/assets/investment_site.png';
 
 
 const project = () => {

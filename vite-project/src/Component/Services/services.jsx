@@ -1,6 +1,6 @@
 import React from 'react';
 import './services.css';
-import imgIcon from '../../assets/color_splash_1.jpg';
+import imgIcon from '/src/assets/color_splash_1.jpg';
 
 const services = () => {
   return (
