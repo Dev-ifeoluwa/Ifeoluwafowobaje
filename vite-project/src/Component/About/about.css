@@ -30,21 +30,39 @@
 }
 .about-call-to-action{
     display: flex;
-    align-items: center;
     gap: 40px;
-    margin-top: 40px;
+    flex-direction: column;
 }
-.about-call-to-action a{
-    text-decoration: none;
-    color: white;
-    background: linear-gradient(130deg, orange, blueviolet);
-    padding: 16px;
+.about-call-to-action1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.about-call-to-action1 a{
     font-size: 20px;
-    border-radius: 20px;
-    animation: actionsac 800ms infinite alternate-reverse;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #6a11cb 0%, orange 100%);
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    animation: actionsac 1000ms infinite alternate;
 }
-.about-call-to-action a:hover{
-    background: rgb(235, 167, 42);
+.sociai-media{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.sociai-media svg{
+    color: black;
+    transition: all 0.3s ease-in-out;
+    background: rgba(128, 128, 128, 0.11);
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.sociai-media svg:hover{
+    color: orange;
 }
 .play-video-btn{
     display: flex;
@@ -81,14 +99,14 @@
         transform: translateY(0);
     }
     to{
-        transform: translateY(10px);
+        transform: translateY(20px);
     }
 }
 @media (max-width: 768px) {
     .about{
         flex-direction: column;
         padding: 5px;
-        /* margin-bottom: 200px; */
+        margin-bottom: 100px;
     }
     .About-left{
         margin-top: 100px;
@@ -103,7 +121,7 @@
     .About-left span{
         font-size: 25px;
     }
-    .about-call-to-action a{
+    .about-call-to-action1 a{
         font-size: 16px;
         padding: 12px;
     }

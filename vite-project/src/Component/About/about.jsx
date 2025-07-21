@@ -1,6 +1,11 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { faGithub, faLinkedin, faEnvelope } from '@fortawesome/free-brands-svg-icons';
 import './about.css';
 import VideoPlay from '/src/assets/video_1.png';
 import Profile from '/src/assets/Profile_photo.png';
@@ -25,12 +30,20 @@ const About = () => {
           <Cursor cursorStyle='|' />
         </span>
         <div className="about-call-to-action">
-          <a href="#">Download CV</a>
-          <div className="play-video-btn">
-            <img src={VideoPlay} alt="play video" />
-            <span>Watch my Into</span>
+          <div className="about-call-to-action1">
+            <a href="#">Download CV</a>
+            <div className="play-video-btn">
+              <img src={VideoPlay} alt="play video" />
+              <span>Watch my Into</span>
+            </div>
           </div>
-          {/* <FontAwesomeIcon icon={faEnvelope} /> */}
+          <div className="sociai-media">
+            <a href="mailto:lawrenceifeoluwa100@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="https://www.linkedin.com/in/ifeoluwa-fowobaje-ba943a348/"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://github.com/Dev-ifeoluwa/" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://www.facebook.com/profile.php?id=61573162777101"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="https://x.com/devbyifeoluwa?t=MMCbH4X0owjD74_beBP-vw&s=09"><FontAwesomeIcon icon={faTwitter} /></a>
+          </div>
         </div>
       </div>
       {/* about-right */}
