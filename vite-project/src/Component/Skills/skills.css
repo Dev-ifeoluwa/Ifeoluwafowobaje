@@ -1,0 +1,51 @@
+.Skills{
+    display: flex;
+    padding: 80px 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills-experience{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+.skills-experience h1{
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.skills-experience p{
+    font-size: 19px;
+    color: gray;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Skills h2{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.rating {
+    display: flex;
+    gap: 80px;
+}
+.first-skill, .second-skill{
+    width: 100%;
+    max-height: 400px;
+    line-height: 60px;
+}
+.pec{
+    display: flex;
+    justify-content: space-between;
+}
+.rating hr{
+    color: blue;
+    background: linear-gradient(170deg, orange, blueviolet);
+    height: 4px;
+    border: none;
+}
+

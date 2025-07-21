@@ -1,0 +1,80 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 80px 120px;
+  text-align: center;
+  background: rgba(128, 128, 128, 0.068);
+}
+.service-top {
+  display: flex;
+  justify-content: space-between;
+}
+.service-top h1 {
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.service-top button{
+    width: 200px;
+    outline: 0;
+    border: 0;
+    background: linear-gradient(60deg, blueviolet, orange);
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    animation: hireMe alternate-reverse 1000ms infinite;
+}
+.service-bot{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+.creative-design{
+    background: rgba(128, 128, 128, 0.089);
+    padding: 50px;
+    border-radius: 20px;
+}
+.for-img-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: rgba(128, 128, 128, 0.11);
+}
+.for-img-icon img{
+   border-radius: 1000px;
+}
+.creative-design h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-top: -40px;
+}
+.creative-design p{
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes hireMe {
+    from {
+        background: linear-gradient(60deg, blueviolet, orange);
+    }
+    to {
+        background: linear-gradient(60deg, orange, blueviolet);
+    }
+     from {
+        transform: translateY(0);
+     }
+    to {
+        transform: translateY(-10px);
+    }
+}

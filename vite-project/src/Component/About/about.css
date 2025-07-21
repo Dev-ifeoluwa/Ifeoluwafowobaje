@@ -1,0 +1,89 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    padding: 40px 120px;
+    margin-bottom: 30px;
+}
+.About-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 2px;
+    margin-top: 150px;
+}   
+.About-left p{
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: 500;
+}
+.About-left h1{
+    font-size: 70px;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;    
+}
+.About-left span{
+    font-size: 40px;
+}
+.about-call-to-action{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.about-call-to-action a{
+    text-decoration: none;
+}
+.about-call-to-action a p{
+    color: white;
+    background: linear-gradient(130deg, orange, blueviolet);
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 20px;
+     animation: actionsac 800ms infinite alternate-reverse;
+}
+.about-call-to-action a p:hover{
+    background: rgb(235, 167, 42);
+}
+.play-video-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: rgba(128, 128, 128, 0.11);
+    padding: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.play-video-btn img{
+    width: 40px;
+    animation: myani 1000ms infinite alternate;
+}
+.play-video-btn span{
+    font-size: 20px;
+}
+.about-right img{
+    border-radius: 0  300px 300px;
+    margin-top: 100px;
+    width: 400px;
+}
+@keyframes myani {
+    from{
+        transform: scale(0.6)
+    }
+    to{
+        transform: scale(0.9)
+    }
+}
+@keyframes actionsac {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+
