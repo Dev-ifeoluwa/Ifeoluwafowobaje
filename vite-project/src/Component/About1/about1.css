@@ -42,7 +42,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .about-remain li{
-    list-style-type: circle;
+    list-style-type: none;
     color: gray;
 }
 .about-remain button{
@@ -58,7 +58,7 @@
     cursor: pointer;
 }
 .about-remain button:hover{
-    background: orange;
+    background: linear-gradient(130deg, orange, blueviolet);
 }
 .about1_container2{
     display: flex;

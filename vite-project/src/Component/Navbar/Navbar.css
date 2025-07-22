@@ -7,25 +7,28 @@
   z-index: 1000;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 230px;
-  background: rgba(255, 255, 255, 0.3); /* semi-transparent background */
-  backdrop-filter: blur(10px); /* blur effect */
-  -webkit-backdrop-filter: blur(10px); /* for Safari support */
-  border-radius: 16px; /* optional: rounded corners */
-  box-shadow: 0 4px 30px rgba(24, 19, 19, 0.1); /* optional: subtle shadow */
+  padding: 40px 280px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 40px rgba(24, 19, 19, 0.1);
 }
 .navbar li {
-  font-size: 24px;
   list-style: none;
+}
+.navbar li a {
+  font-size: 24px;
   cursor: pointer;
   font-weight: 500;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
 }
-.navbar li:hover{
-    color: blueviolet;
+.navbar li a:hover {
+  color: orange;
 }
 @media (max-width: 768px) {
   .navbar {
     display: none;
   }
 }
-

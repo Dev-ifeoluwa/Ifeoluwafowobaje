@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const tabs = [
   {
     title: "Experience",
-    items: ["UI Designer", "Graphics Designer", "Web Designer", "Apps Designer" ],
+    items: ["UI Design", "Graphics Design", "Web Design", "UI Apps Design" ],
   },
   {
     title: "Skills",

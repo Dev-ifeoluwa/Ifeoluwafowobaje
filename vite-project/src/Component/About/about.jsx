@@ -5,7 +5,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-// import { faGithub, faLinkedin, faEnvelope } from '@fortawesome/free-brands-svg-icons';
 import './about.css';
 import VideoPlay from '/src/assets/video_1.png';
 import Profile from '/src/assets/Profile_photo.png';
@@ -13,7 +12,7 @@ import Profile from '/src/assets/Profile_photo.png';
 const About = () => {
 
   const [typeEffect] = useTypewriter({
-    words: ['Web Developer.', ' Web Designer.', 'Frontend Developer.', 'App Developer.', 'App Designer.', 'Entrepreneur.'],
+    words: ['Web Developer.', ' Web Designer.', 'Frontend Developer.', 'Graphics Designer.', 'Entrepreneur.'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
@@ -21,7 +20,7 @@ const About = () => {
   })
 
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className="About-left">
         <p>I'm</p>
         <h1>Ifeoluwa Fowbaje</h1>
@@ -34,7 +33,7 @@ const About = () => {
             <a href="#">Download CV</a>
             <div className="play-video-btn">
               <img src={VideoPlay} alt="play video" />
-              <span>Watch my Into</span>
+              <span>Watch my Info</span>
             </div>
           </div>
           <div className="sociai-media">

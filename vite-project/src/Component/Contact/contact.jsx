@@ -11,10 +11,10 @@ const contact = () => {
         <div className="contact-top">
           <div className="info">
             <p>My office: </p>
-            <h2>Festac Town, lagos state Nigeria</h2>
+            <h2>Festac, lagos state Nigeria.</h2>
             <hr />
             <p>Call me: </p>
-            <h2>+0123456</h2>
+            <h2>+0123456789</h2>
             <hr />
             <p>mail me: </p>
             <h2>Lawrenceifeoluwa100@gmail.com</h2>
@@ -37,7 +37,7 @@ const contact = () => {
           placeholder='Subject'
           required />
         <input type="text" name="" id=""
-          placeholder='Subject' required />
+          placeholder='Your Message' required />
         <button type="submit">Send Message</button>
       </div>
     </div>

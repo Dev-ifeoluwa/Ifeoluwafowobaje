@@ -48,6 +48,9 @@
     height: 4px;
     border: none;
 }
+.rating hr:hover{
+    background: linear-gradient(170deg, blueviolet, orange);
+}
 @media (max-width: 768px) {
     .Skills {
         padding: 40px 20px;

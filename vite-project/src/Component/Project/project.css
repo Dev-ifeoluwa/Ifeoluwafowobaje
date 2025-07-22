@@ -52,7 +52,7 @@
     transform: scale(1.09);
 }
 .info-project a span:hover{
-    background: blueviolet;
+    background: linear-gradient(170deg, blueviolet, orange);
 }
 @media (max-width: 768px) {
     .project{

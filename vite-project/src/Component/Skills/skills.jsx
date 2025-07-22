@@ -4,11 +4,11 @@ import './skills.css';
 
 const skills = () => {
   return (
-    <div className='Skills'>
+    <div className='Skills' id='skills'>
       <div className="skills-experience">
         <h1>Skills & Experience</h1>
         <p> I currently focus on frontend development using React.js, Tailwind CSS,
-            JavaScript, HTML, and CSS. I’ve completed 12 projects for 10+ clients,
+            JavaScript, HTML, and CSS. I’ve completed 11 projects for 8+ clients,
            delivering clean, responsive, and user-friendly interfaces.
         </p>
         <div className="skills">

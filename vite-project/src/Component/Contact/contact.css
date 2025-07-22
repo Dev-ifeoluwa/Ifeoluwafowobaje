@@ -105,6 +105,10 @@
     .contact-bottom a{
         display: none;
     }
+    .div{
+        display: flex;
+        gap: 2px;  
+    }
     .div input, .contact-bottom input, .contact-bottom button{
         width: 100%;
         margin-top: 5px;

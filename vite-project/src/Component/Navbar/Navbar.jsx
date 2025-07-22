@@ -6,12 +6,11 @@ const navbar = () => {
 
   return (
     <div className= 'hidden navbar'>
-      <li>About</li>
-      <li>skills</li>
-      <li>Projects</li>
-      <li>Service</li>
-      <li>Testimonial</li>
-      <li>Contact</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#contact">Contact</a></li>
     </div>
   )
 }

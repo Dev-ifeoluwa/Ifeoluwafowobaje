@@ -22,7 +22,7 @@ const About1 = () => {
             <div className="about-remain">
                 <p>I'm a developer with over a year of 
                     experience building efficient, user-focused 
-                    applications. I enjoy learning new technologies 
+                    website. I enjoy learning new technologies 
                     and writing clean, maintainable code.
                 </p>
                 <ul>
@@ -40,13 +40,13 @@ const About1 = () => {
                 <img src={Exp000} alt="Web design project example" width={250}/>
             </div>
             <div className="remain-text">
-                <h1>Happy Clients  <span>10+</span></h1>
-                <p>i have successfully delivered projects for 10+ clients. 
+                <h1>Happy Clients  <span>8+</span></h1>
+                <p>I have successfully delivered projects for 8+ clients. 
                     I focus on building clean, efficient,
                      and user-friendly applications tailored to real-world needs.
                 </p>
-                <h1>projects completed  <span>12+</span></h1>
-                <p>I have successfully completed 15+ projects for 10+ clients.
+                <h1>projects completed  <span>11+</span></h1>
+                <p>I have successfully completed 11+ projects for 8+ clients.
                      I specialize in building clean, efficient, 
                     and user-focused applications that solve real-world problems.
                 </p>
