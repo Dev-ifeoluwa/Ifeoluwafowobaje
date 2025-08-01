@@ -23,7 +23,7 @@ const About = () => {
     <div className='about' id='about'>
       <div className="About-left">
         <p>I'm</p>
-        <h1>Ifeoluwa Fowbaje</h1>
+        <h1>Ifeoluwa Fowobaje</h1>
         <span>
           {typeEffect}
           <Cursor cursorStyle='|' />

@@ -1,0 +1,43 @@
+#light{
+    background: white;
+    color: black;
+}
+#dark{
+    background: black;
+    color: white;
+}
+.for-switch{
+    display: flex;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    right: 0;
+}
+#light .for-switch label{
+    color: black;
+    margin-right: 6px;
+    font-size: 15px;
+}
+#dark .for-switch label{
+    color: white;
+    margin-right: 6px;
+    font-size: 15px;
+}
+#dark .creative-design {
+    background: rgba(255, 255, 255, 0.199);
+}
+#dark .About-left h1{
+    color: white;
+}
+#dark .sociai-media svg{
+    color: white;
+    background: rgba(128, 128, 128, 0.466);
+}
+#dark .sociai-media svg:hover{
+    color: orange;
+}
+#dark .about1,
+#dark .service,
+#dark .contact{
+    background: rgba(128, 128, 128, 0.329);
+}

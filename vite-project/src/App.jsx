@@ -8,6 +8,10 @@ import Service from './Component/Services/services.jsx';
 import Project from './Component/Project/project.jsx';
 import Contact from './Component/Contact/contact.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { createContext } from 'react';
+// import ReactSwitch from 'react-switch'
+// import './App.css'
+
 
 const App = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -24,6 +28,7 @@ const App = () => {
     handleScroll(); // Initial check
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
 
   return (
     <div>
@@ -58,3 +63,33 @@ const App = () => {
 }
 
 export default App
+export const ThemeContext = createContext(null);
+
+
+
+
+// for dark mode
+// const [theme, setTheme] = useState("light");
+
+// const themeToggle = () => {
+//   setTheme((curr) => (
+//     curr === "light" ? "dark" : "light"
+//   ))
+// }
+
+
+
+
+
+// <ThemeContext.Provider value={{ theme, themeToggle }}>
+//   <div className='App' id={theme}>
+//     {showNavbar && <Navbar />}
+//     <div className='for-switch'>
+//       <label> {theme === "light" ? "Light Mode" : "Dark Mode"} </label>
+//       <ReactSwitch
+//         width={30}
+//         height={15}
+//         onChange={themeToggle}
+//         checked={theme === "dark"}/>
+//     </div>
+//   </ThemeContext.Provider>
