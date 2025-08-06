@@ -6,6 +6,7 @@
     width: 100%;
     padding: 40px 120px;
     margin-bottom: 30px;
+    position: relative;
 }
 .About-left{
     display: flex;
@@ -151,5 +152,97 @@
         width: 300px;
     }
     
+}
+/* for circle animation */
+.for-animation{
+    display: flex;
+}
+.cicrle{
+    position: absolute;
+    background: linear-gradient(224deg, white , rgba(255, 166, 0, 0.356));
+    padding: 40px;
+    border-radius: 90px;
+}
+.for-animation :nth-child(1) {
+    left: 200px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    animation: circleani 13s alternate-reverse infinite;
+}
+.for-animation :nth-child(2) {
+    right: 800px;
+    top: 280px;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    animation: circle_2 17s alternate-reverse infinite;
+}
+.for-animation :nth-child(3) {
+    right: 150px;
+    bottom: 30px;
+    animation: circleani 9s alternate-reverse infinite;
+}
+.for-animation :nth-child(4) {
+    right: 300px;
+    top: 50px;
+    animation: circle_3 12s alternate-reverse infinite;
+}
+@keyframes circleani {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}
+@keyframes circle_2 {
+    0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(80px);
+    }
+    100%{
+        transform: translateY(40px);
+    }
+}
+@keyframes circle_3 {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateY(40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .for-animation :nth-child(1) {
+        left: 300px;
+        top: 80px;
+        width: 100px;
+        height: 100px;
+        z-index: -1;
+    }
+    .for-animation :nth-child(2) {
+        left: 20px;
+        top: 300px;
+        z-index: -1;
+        width: 50px;
+        height: 50px;
+    }
+    .for-animation :nth-child(3) {
+        display: none;
+    }
+    .for-animation :nth-child(4) {
+        right: 300px;
+        top: 50px;
+    }
 }
 
