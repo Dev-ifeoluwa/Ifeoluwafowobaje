@@ -10,7 +10,7 @@ const project = () => {
     <div className='project' id='project'>
         <h1>My Projects</h1>
       <div className="project-list">
-        <img src={Project1} alt="" width={500}/>
+        <img src={Project1} alt="" width={550} height={300}/>
         <div className="info-project">
           <h2>Eze's Concept</h2>
           <p>I'm presently working and developing a 
@@ -19,7 +19,7 @@ const project = () => {
             ,products uploads, and contact forms and a lot 
             more amazing featurs to come.</p>
           <a href="https://ezeconcept.vercel.app" target="_blank" rel="noopener noreferrer"><span>View Project</span></a> <hr />
-          <p>React js . TailwindCss</p>
+          <p>Next js . TailwindCss . typeScript</p>
         </div>
         {/* project 2 */}
       </div>
