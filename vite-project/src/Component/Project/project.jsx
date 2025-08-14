@@ -1,6 +1,6 @@
 import React from 'react';
 import './project.css';
-import Project1 from '/src/assets/Church_website.png';
+import Project1 from '/src/assets/ezes.png';
 import Project2 from '/src/assets/E_commerce.png';
 import Project3 from '/src/assets/Investment_site.png';
 
@@ -12,11 +12,13 @@ const project = () => {
       <div className="project-list">
         <img src={Project1} alt="" width={500}/>
         <div className="info-project">
-          <h2>Church Website</h2>
-          <p>I designed and developed a responsive church
-             website featuring service schedules, event
-              pages, sermon uploads, and contact forms.</p>
-          <a href="https://church-website-example.com" target="_blank" rel="noopener noreferrer"><span>View Project</span></a> <hr />
+          <h2>Eze's Concept</h2>
+          <p>I'm presently working and developing a 
+            responsive and eyecatching store
+            featuring cart pages payment options, 
+            ,products uploads, and contact forms and a lot 
+            more amazing featurs to come.</p>
+          <a href="https://ezeconcept.vercel.app" target="_blank" rel="noopener noreferrer"><span>View Project</span></a> <hr />
           <p>React js . TailwindCss</p>
         </div>
         {/* project 2 */}
