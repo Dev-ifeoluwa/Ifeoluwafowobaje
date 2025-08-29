@@ -18,8 +18,8 @@ const project = () => {
             featuring cart pages payment options, 
             ,products uploads, and contact forms and a lot 
             more amazing featurs to come.</p>
-          <a href="https://ezeconcept.vercel.app" target="_blank" rel="noopener noreferrer"><span>View Project</span></a> <hr />
-          <p>Next js . TailwindCss . typeScript</p>
+          <a href="https://ezesconcept.vercel.app" target="_blank" rel="noopener noreferrer"><span>View Project</span></a> <hr />
+          <p>Next js . TailwindCss . typeScript . MongoDB . NextAuth Js</p>
         </div>
         {/* project 2 */}
       </div>
