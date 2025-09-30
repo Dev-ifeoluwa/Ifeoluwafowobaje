@@ -12,7 +12,7 @@ import Profile from '/src/assets/Profile_photo.png';
 const About = () => {
 
   const [typeEffect] = useTypewriter({
-    words: ['Web Developer.', ' Web Designer.', 'Frontend Developer.', 'Graphics Designer.', 'Entrepreneur.'],
+    words: ['Full Stack developer.', 'Backend Developer.', 'Frontend Developer.', 'Web developer.', 'Entrepreneur.'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,

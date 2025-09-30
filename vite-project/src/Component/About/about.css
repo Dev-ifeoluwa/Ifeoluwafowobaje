@@ -226,23 +226,55 @@
     .for-animation :nth-child(1) {
         left: 300px;
         top: 80px;
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         z-index: -1;
     }
     .for-animation :nth-child(2) {
         left: 20px;
         top: 300px;
         z-index: -1;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .for-animation :nth-child(3) {
         display: none;
     }
     .for-animation :nth-child(4) {
-        right: 300px;
+        right: 200px;
         top: 50px;
+        width: 20px;
+        height: 20px;
+    }
+    .About-left p{
+        font-size: 17px;
+    }
+    .About-left h1{
+        font-size: 33px;   
+    }
+    .About-left span{
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .about-call-to-action1 a{
+        font-size: 14px;
+        padding: 8px 9px;
+    }
+    .play-video-btn{
+        gap: 10px;
+        padding: 8px 10px;
+    }
+    .play-video-btn img{
+        width: 20px;
+        animation: myani 1000ms infinite alternate;
+    }
+    .play-video-btn span{
+        font-size: 14px;
+    }
+    .about-right img{
+        border-radius: 30;
+        /* margin-top: 100px; */
+        width: 300px;
     }
 }
 

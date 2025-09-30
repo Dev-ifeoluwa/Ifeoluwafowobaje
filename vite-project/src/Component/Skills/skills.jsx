@@ -18,6 +18,8 @@ const skills = () => {
               <p className='pec'>Next Js <span>95%</span></p> <hr width={250}/> 
               <p className='pec'>Typescript <span> 80%</span></p> <hr width={250}/>
               <p className='pec'>Javascript <span> 85%</span></p> <hr width={220}/>
+              <p className='pec'>Nodejs <span> 85%</span></p> <hr width={220}/>
+              <p className='pec'>Nestjs <span> 85%</span></p> <hr width={220}/>
             </div>
             <div className="second-skill">
               <p className='pec'>TailwindCss <span>85%</span></p> <hr width={230}/> 

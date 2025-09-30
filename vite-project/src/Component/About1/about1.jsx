@@ -11,11 +11,11 @@ const About1 = () => {
             {/* for years */}
             <div className="years">
                 <div className="year">
-                    <h1>1</h1>
-                    <p className='par-year'>year</p>
+                    <h1>2</h1>
+                    <p className='par-year'>years</p>
                 </div>
                 <p>
-                    of working experience as a web designer & developer
+                    of working experience as a web developer
                 </p>
             </div>
             {/* for remaining about text */}

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding: 70px 120px;
-  gap: 80px;
+  gap: 50px;
   background: rgba(128, 128, 128, 0.089);
 }
 .about1__container {
@@ -17,6 +17,10 @@
   align-items: center;
   width: 100%;
   max-width: 500px;
+}
+.year {
+    display: flex;
+    flex-direction: column;
 }
 .year h1 {
   font-size: 12rem;
@@ -39,10 +43,12 @@
 }
 .about-remain p{
     font-size: 18px;
+    /* line-height: 30px; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .about-remain li{
     list-style-type: none;
+    line-height: 28px;
     color: gray;
 }
 .about-remain button{
@@ -68,7 +74,7 @@
 }
 .for-img{
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 .for-img img{
     border-radius: 10px;
@@ -84,6 +90,7 @@
 .remain-text p{
     color: gray;
     font-size: 18px;
+    line-height: 30px;
 }
 @media (max-width: 768px) {
     .about1 {
@@ -97,14 +104,14 @@
         align-items: center;    
     }
     .year h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .years p {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 30px;
     }
     .about-remain {
-        font-size: 16px;
+        font-size: 14px;
     }
     .par-year {
         margin-top: -10px;
@@ -116,30 +123,33 @@
     .about-remain li {
         font-size: 16px;
         margin-left: 20px;
+        line-height: 26px;
     }
     .about-remain button {
-        width: 100%;
-        max-width: 150px;
-        padding: 10px 13px;
-        font-size: 16px;
+        /* width: 100%; */
+        max-width: 130px;
+        padding: 7px 10px;
+        font-size: 14px;
         border-radius: 20px;
     }
     .for-img {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: space-between;
     }
    .about1_container2{
         gap: 20px;
     }
     .for-img img {
         width: 100%;
-        max-width: 350px;
+        max-width: 150px;
     }
     .remain-text h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
     .remain-text p {
-        font-size: 16px;
+        font-size: 15px;
+        line-height: 23px;
     }
 
 

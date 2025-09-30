@@ -11,7 +11,7 @@
   justify-content: space-between;
 }
 .service-top h1 {
-  font-size: 45px;
+  font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .service-top button{
@@ -30,12 +30,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 30px;
-    padding: 20px;
+    padding: 30px;
 }
 .creative-design{
     background: rgba(128, 128, 128, 0.089);
-    padding: 50px;
+    /* padding: 10px; */
+    border: 1px solid blue;
     border-radius: 20px;
+    padding: 10px;
 }
 .for-img-icon{
     display: flex;
@@ -47,13 +49,20 @@
     background: rgba(128, 128, 128, 0.11);
 }
 .for-img-icon img{
-   border-radius: 1000px;
+   border-radius: 100px;
+}
+.for-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 7px;
+  padding-top: 15px;
 }
 .creative-design h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #000;
-    margin-top: -40px;
+    margin-top: 20px;
 }
 .creative-design p{
     font-size: 17px;
@@ -83,11 +92,11 @@
     padding: 40px 30px;
   }
   .service-top h1 {
-    font-size: 30px;
+    font-size: 22px;
   }
   .service-top button {
-    width: 150px;
-    font-size: 16px;
+    width: 80px;
+    font-size: 14px;
   }
   .creative-design {
     padding: 20px;
@@ -97,10 +106,11 @@
     height: 40px;
   }
   .creative-design h2 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .creative-design p {
     font-size: 15px;
+    line-height: 23px;
   }
   .service-bot {
     grid-template-columns: 1fr;

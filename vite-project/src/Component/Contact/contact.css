@@ -87,16 +87,16 @@
         padding: 40px 70px;
     }
     .intro h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .total-t{
         gap: 30px;
     }
     .info p{
-        font-size: 16px;
+        font-size: 15px;
     }
     .info h2{
-        font-size: 20px;
+        font-size: 17px;
         margin-bottom: 20px;;
     }
     .info hr{
@@ -118,7 +118,7 @@
     .contact-bottom button{
         width: 100%;
         margin-top: 20px;
-        padding: 12px 0;
+        padding: 10px 0;
         font-size: 16px;
     }
 }
