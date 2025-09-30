@@ -35,7 +35,7 @@
 .creative-design{
     background: rgba(128, 128, 128, 0.089);
     /* padding: 10px; */
-    border: 1px solid blue;
+    border: 1px solid rgba(128, 128, 128, 0.384);
     border-radius: 20px;
     padding: 10px;
 }
@@ -118,4 +118,10 @@
   .creative-design {
     padding: 30px;
   }
+  .service-bot{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    gap: 30px;
+    padding: 5px;
+}
 }

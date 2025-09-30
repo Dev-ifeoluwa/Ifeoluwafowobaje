@@ -84,7 +84,7 @@
 @media (max-width: 768px) {
     .contact{
         flex-direction: column;
-        padding: 40px 70px;
+        padding: 40px 30px;
     }
     .intro h1{
         font-size: 20px;
@@ -96,7 +96,7 @@
         font-size: 15px;
     }
     .info h2{
-        font-size: 17px;
+        font-size: 20px;
         margin-bottom: 20px;;
     }
     .info hr{
@@ -118,7 +118,7 @@
     .contact-bottom button{
         width: 100%;
         margin-top: 20px;
-        padding: 10px 0;
+        padding: 12px 0;
         font-size: 16px;
     }
 }

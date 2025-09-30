@@ -3,11 +3,11 @@ import React, { useState } from "react";
 const tabs = [
   {
     title: "Experience",
-    items: ["UI Design", "Graphics Design", "Web Design", "UI Apps Design" ],
+    items: ["Full stack development", "Frontend development", "Backend development", "Web development" ],
   },
   {
     title: "Skills",
-    items: ["HTML & CSS", "JavaScript", "ReactJS", "Tailwind CSS"],
+    items: ["Nodejs & NestJs", "JavaScript & Typescript", "ReactJS & Nextjs", "Tailwind CSS"],
   },
 ];
 
