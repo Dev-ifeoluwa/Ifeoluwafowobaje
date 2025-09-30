@@ -30,9 +30,8 @@ const About = () => {
         </span>
         <div className="about-call-to-action">
           <div className="about-call-to-action1">
-            <a href="my_resume"
-            download="IfeoluwaResume.pdf"
-            >Download CV</a>
+            <a href="/IfeoluwaResume.pdf"
+            download>Download CV</a>
             <div className="play-video-btn">
               <img src={VideoPlay} alt="play video" />
               <span>Watch my Info</span>
