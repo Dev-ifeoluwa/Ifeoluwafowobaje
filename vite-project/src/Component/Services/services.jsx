@@ -18,9 +18,9 @@ const services = () => {
                 {/* </div> */}
                 <h2>Full Stack Web development</h2>
               </div>
-                <p>Start from $200</p>
-                <p>I build scalable web applications using modern frameworks like <strong>Next.js</strong> for 
-                  frontend and <strong>NestJs</strong> for backend, ensuring speed, performance, and reliabilty.
+                {/* <p>Start from $200</p> */}
+                <p>I build scalable web applications using modern frameworks like <strong>Next.js, React</strong> for 
+                  frontend and <strong>NestJs, Express</strong> for backend, ensuring speed, performance, and reliabilty.
                 </p>
         </div>
         <div className="creative-design">
@@ -30,7 +30,7 @@ const services = () => {
                 </div> */}
                 <h2>API Development</h2>
               </div>
-                <p>Start from $200</p>
+                {/* <p>Start from $200</p> */}
                 <p>I'm Skilled at creating a well secured and well structured <strong>REST APIs</strong>
                 and integrate third-party services seamlessly, including payment, auth system and more.
                 </p>
@@ -42,7 +42,7 @@ const services = () => {
                 </div> */}
                 <h2>Database & Management Design</h2>
              </div>
-                <p>Start from $250</p>
+                {/* <p>Start from $250</p> */}
                 <p>From <strong>SQL to NoSQL</strong>, I design Optimized database and
                 ensure smooth data flow between your project and its storage layer.
                 </p>
@@ -54,7 +54,7 @@ const services = () => {
                   </div> */}
                   <h2>E-commerce & Multivendor platform</h2>
                 </div>
-                <p>Start from $80</p>
+                {/* <p>Start from $80</p> */}
                 <p>I'm also skilled in graphic design, creating visually engaging 
                   designs for digital and print media, 
                   including logos, banners, and social media content.

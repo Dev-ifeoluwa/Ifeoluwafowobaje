@@ -24,7 +24,7 @@ const myWorks = [
         ProjectName: "Fintech frontend development",
         projectImage: Project3,
         projectDesc: "I built a modern, responsive payment platform with features like plan listings, user dashboards, secure login, and real-time data display interface.",
-        projectTech: "React js . TailwindCss",
+        projectTech: "Next js . TailwindCss . NestJs . PrismaORM . PostgreSQL",
     },
     {
         projectId: 4,

@@ -30,14 +30,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 30px;
-    padding: 30px;
+    padding: 10px;
 }
 .creative-design{
     background: rgba(128, 128, 128, 0.089);
     /* padding: 10px; */
     border: 1px solid rgba(128, 128, 128, 0.384);
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 .for-img-icon{
     display: flex;
@@ -63,6 +63,7 @@
     font-weight: 700;
     color: #000;
     margin-top: 20px;
+    padding: 10px;
 }
 .creative-design p{
     font-size: 17px;
@@ -119,9 +120,9 @@
     padding: 30px;
   }
   .service-bot{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    gap: 20px;
     padding: 5px;
 }
 }
